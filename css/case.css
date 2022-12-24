@@ -1,0 +1,138 @@
+/* start Global Rules */
+:root{
+    --grid:#333333;
+    --gold:gold;
+}
+body{
+    margin: 0;
+    background-color: var(--grid);
+    overflow: hidden;
+}
+header {
+
+    display: flex;
+    justify-content: space-around;
+    background-color:var(--grid);
+}
+header ul{
+    display: flex;
+    margin: 0;
+}
+header ul li{
+    padding: 5px;
+   
+    margin: 10px;
+}
+header ul li a{
+    text-decoration: none;
+    color: var(--gold);
+
+}
+header img{
+    height: 47px;
+}
+body .back {
+    background-image: url(../image/back.png);
+    height: 93vh;
+    background-size: cover;
+    display: flex;
+}
+body .back .mohaned {
+    background-image: url(../image/mohaned.png);
+    background-size: 500px 240px;
+    width: 500px;
+    height: 240px;
+    margin: auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* mobil  */
+@media (max-width: 767px) {
+    header img {
+        margin-left:10px;
+        height: 37px;
+    }
+    header ul {  
+        padding: 0;
+    }
+
+    header ul li {
+        padding-top: 6px;
+        margin: 5px;
+    }
+    body .back {
+        width: 100vw;
+        height: 112vh;}
+    body .back .mohaned {
+        background-size: 300px 150px;
+        width: 300px;
+        height: 150px;
+    }
+    header ul li a {
+        font-size: 9px;
+    }
+}
+ /* Small Screens.  */
+
+@media (min-width: 768px) {
+   
+}
+
+/* Medium Screens */
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large Screens */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170;
+    }
+} 
+@media (max-width: 400px){
+ header ul li {
+    padding-top: 0px;
+    margin: 3px;
+}
+}
